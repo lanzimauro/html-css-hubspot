@@ -10,13 +10,17 @@
     clear: both;
 }
 
-.container {
+/* INIZIO HEADER */
+
+.fascia-header {
+    width: 100%;
+    background-color: white;
+}
+
+.container-header {
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
-    /*DA ELIMINARE*/
-    height: 500px;
-    background-color: pink;
 }
 
 header {
@@ -48,3 +52,36 @@ header img {
     text-decoration: none;
     color: #33475b;
 }
+/*FINE HEADER*/
+
+/* INIZIO BANNER BLU */
+.fascia-banner {
+    width: 100%;
+    background-color: #425b76;
+}
+
+.container-banner {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.testo-banner {
+    float:left;
+    width: 80%;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+.banner button{
+    float:right;
+    background-color: white;
+    border-radius: 5%;
+    border:none;
+    padding: 10px;
+    color: #425b76;
+    font-weight: bold;
+}
+/* FINE BANNER BLU */
