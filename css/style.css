@@ -85,3 +85,16 @@ header img {
     font-weight: bold;
 }
 /* FINE BANNER BLU */
+
+/* INIZIO CORPO ROSA */
+.fascia-corpo {
+    width: 100%;
+    background-color: #fff2ee;
+    /* ELIMINA */
+    height: 400px;
+}
+
+.container-corpo{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
