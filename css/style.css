@@ -99,6 +99,7 @@ header img {
 }
 .container-corpo {
     width: 80%;
+    max-width: 1200px;
     margin: 0 auto;
     background-image: url(https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/home/2019/clouds-desktop.svg);
     background-position: right;
@@ -159,3 +160,48 @@ header img {
     border-bottom: 2px solid #33475b;
 }
 /* FINE RIGA VERDE */
+
+/* INIZIO RIGA CONTENUTO */
+.fascia-contenuto {
+    width: 100%;
+    background-color: #f5f8fa;
+}
+
+.container-contenuto {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contenuto {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 90px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.immagine-contenuto {
+    margin: 0 auto;
+}
+
+.titolo-contenuto {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contenuto h2 {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #33475b;
+    margin-top: 20px;
+}
+
+.testo-contenuto p {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: #3f475b;
+}
+
+/* FINE RIGA CONTENUTO */
