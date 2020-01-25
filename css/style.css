@@ -267,8 +267,45 @@ header img {
 
 
 .testo-card-orizz {
+    font-family: sans-serif;
+    color: #3f475b;
     float: right;
     width: 65%;
-    height: 240px;
-    background-color: skyblue;
+    padding: 10px;
+}
+
+.testo-card-orizz p, h4{
+    margin-bottom: 20px;
+}
+
+.testo-card-orizz h4 {
+    font-size: 22px;
+}
+
+.Everything {
+    font-size: 14px;
+}
+
+.popular {
+    font-weight: bold;
+}
+
+.testo-card-orizz ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+.point {
+    margin-right: 10px;
+    float: left;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: #ff7a59;
+}
+
+
+.list {
+    float: left;
 }
