@@ -317,7 +317,7 @@ header img {
 /* INIZIO CARDS VERTICALI */
 .fascia-cards {
     width: 100%;
-    height: 800px;
+    padding-bottom: 200px;
     background-color: #f5f8fa;
 }
 
@@ -337,11 +337,10 @@ header img {
     border-radius: 4px;
     margin: 10px;
     padding: 8px;
-    font-weight: bold;
     font-family: sans-serif;
     color: #3f475b;
     background-color: #ffffff;
-    /* border: 1px solid black; */
+
 }
 
 .card h4 {
@@ -376,7 +375,8 @@ header img {
 }
 
 .cards-button button {
-    margin-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     border-radius: 4px;
     border:none;
     padding: 15px;
@@ -385,3 +385,80 @@ header img {
     font-size: 17px;
     color: #fff6f4;
 }
+/* FINE CARDS ORIZZONTALI */
+/* INIZIO SEZIONE VERDE */
+.fascia-verde {
+    width: 100%;
+    padding: 130px 0;
+    background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+}
+
+.banner-dati {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.banner-dati h2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.banner-dati p {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.griglia-dati {
+    width: 80%;
+    max-width: 1200px;
+    margin: 120px auto;
+}
+
+.griglia-dati div:nth-child(-n+7) {
+    border-width: 0 1px 0 0;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+.griglia-dati div:nth-child(4) {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+.griglia-dati div:nth-child(-n+3) {
+    border-bottom: 1px solid #ffffff;
+}
+
+.oggetto-griglia {
+    text-align: center;
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 200px;
+    padding-top: 20px;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+.griglia-dati h2 {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.griglia-dati p {
+    font-size: 20px;
+}
+
+.immagine-oggetto {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* FINE SEZIONE VERDE */
